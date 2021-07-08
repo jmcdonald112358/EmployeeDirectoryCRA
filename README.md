@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# User Directory
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
 
-## Available Scripts
+### Description
+This project is a simple web application for viewing basic details about a list of users/employees. It is currently set up with a generic random user generator API, but can easily be reconfigured to make an API call to a specific collection of users. The app allows you to easily see all of your users at a glance, with their relevant details (which can also be reconfigured to whichever specific fields are desired), with the ability to search for a specific user if needed.
 
-In the project directory, you can run:
+### Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [How to contribute](#contributing)
+- [Credits](#accreditations)
+- [Questions](#questions)
 
-### `npm start`
+### Installation
+This is a deployed web app that does not require any installation.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Usage
+To use this application, follow these steps:
+1. Navigate to https://jmcdonald112358.github.io/EmployeeDirectoryCRA/
+2. Scroll through users to locate whomever you're looking for or
+3. Use the search field to search for a specific user and filter the cards to user(s) that match the query
+![Employee directory](https://user-images.githubusercontent.com/73570812/124883830-f5f8b780-df8e-11eb-9a73-daeb88e91bde.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### License
+Licensed under the following: MIT License
 
-### `npm test`
+### Contributing
+To contribute to this project, email jmcdonald112358@gmail.com to be added to the repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Accreditations
+- Create React App npm package for basic code setup
+- Referenced most all of week 19 activities
+- General Google searching and StackOverflow for assistance working through specific issues (learning how to use `react-bootstrap` npm package, etc.)
 
-### `npm run build`
+### Additional notes / coming soon
+- Functionality for resetting a search query will be incorporated soon
+- A fix for the footer attribution of source data will be coming soon
+    - Currently, the attribution doesn't stay put at the bottom on smaller screens and ends up overlaying page content and just generally looks shoddy
+- I had issues with deployment of this, so, there are two repos for it -- one that has the full commit history from working on the project, the other that has copies of the finalized files from the original repo, added with the `gh-pages` integration to get the deployment working.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Questions
+If you have any questions about the project, please feel free to message at **jmcdonald112358@gmail.com**, or connect with me on GitHub: **[jmcdonald112358](https://github.com/jmcdonald112358)**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Links
+- [Original Repository](https://github.com/jmcdonald112358/Employee-Directory)
+- [Functional Repository](https://github.com/jmcdonald112358/EmployeeDirectoryCRA)
+- [Deployed app](https://jmcdonald112358.github.io/EmployeeDirectoryCRA/)
